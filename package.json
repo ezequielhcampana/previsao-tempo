@@ -10,8 +10,9 @@
     "e2e": "ng e2e"
   },
   "private": true,
-  "dependencies": {
+  "dependencies": { 
     "@angular/animations": "~11.0.5",
+    "@angular/cdk": "^11.2.11",
     "@angular/common": "~11.0.5",
     "@angular/compiler": "~11.0.5",
     "@angular/core": "~11.0.5",
@@ -19,6 +20,14 @@
     "@angular/platform-browser": "~11.0.5",
     "@angular/platform-browser-dynamic": "~11.0.5",
     "@angular/router": "~11.0.5",
+    "@ngrx/effects": "^11.1.1",
+    "@ngrx/router-store": "^11.1.1",
+    "@ngrx/store": "^11.1.1",
+    "@ngrx/store-devtools": "^11.1.1",
+    "bootstrap": "4.1.1",
+    "js-search": "^2.0.0",
+    "moment-timezone": "^0.5.33",
+    "ngx-bootstrap": "^6.2.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
